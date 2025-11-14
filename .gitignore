@@ -1,0 +1,143 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# Data & Databases
+data/chroma_db/
+data/sample_repos/*
+!data/sample_repos/.gitkeep
+*.db
+*.sqlite
+*.sqlite3
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+logs/
+*.log.*
+
+# OS Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Model Cache & Downloads
+.cache/
+downloads/
+models/
+*.bin
+*.safetensors
+*.gguf
+*.ggml
+
+# ChromaDB specific
+chroma.sqlite3
+chroma.sqlite3-*
+
+# Embeddings cache
+embeddings_cache/
+*.pkl
+*.pickle
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.hypothesis/
+
+# Documentation
+docs/_build/
+site/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# Large files (GitHub has 100MB limit)
+*.tar.gz
+*.zip
+*.tar
+*.rar
+
+# Secrets & API Keys (extra safety)
+secrets/
+credentials/
+*.pem
+*.key
+*.cert
+api_keys.txt
+
+# Streamlit
+.streamlit/secrets.toml
+
+# MacOS specific
+.AppleDouble
+.LSOverride
+Icon
+.DocumentRevisions-V100
+.fseventsd
+.TemporaryItems
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
